@@ -9,7 +9,9 @@ def find_even_values(src)
       if src[row][column] % 2 == 0
       puts src[row][column]
       end
+      column += 1
     end
+    row += 1
   end
 
 end
